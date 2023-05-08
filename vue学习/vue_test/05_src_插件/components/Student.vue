@@ -1,7 +1,8 @@
 <template>
-    <div class="demo">
+    <div>
         <h2>学生姓名：{{name}}</h2>
-        <h2 class="qwe">学生性别：{{sex}}</h2>
+        <h2>学生性别：{{sex}}</h2>
+        <input type="text">
     </div>
 </template>
 
@@ -13,15 +14,6 @@
                 name: '张三',
                 sex: '男'
             }
-        },
-    }
-</script>
-
-<style scoped lang="less">
-    .demo {
-        background-color: orange;
-        .qwe{
-            font-size: 40px;
         }
     }
-</style>
+</script>
